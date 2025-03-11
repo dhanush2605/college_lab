@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #007BFF; /* Blue background for header */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline; /* Display items in a line */
+    margin: 0 15px; /* Space between items */
+}
+
+header nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Main Content Styles */
+main {
+    background-color: white; /* White background for main content */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    color: #007BFF; /* Blue color for headings */
+    margin-bottom: 10px;
+}
+
+/* Equipment List Styles */
+.equipment-list {
+    margin-bottom: 20px; /* Space below the equipment list */
+}
+
+.equipment-item {
+    background: #f9f9f9; /* Light background for equipment items */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px;
+    margin: 10px 0; /* Space between items */
+}
+
+/* Review Section Styles */
+.review-section {
+    margin-top: 20px; /* Space above the review section */
+    padding: 20px; /* Padding inside the section */
+    background-color: #f9f9f9; /* Light background for the review section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0

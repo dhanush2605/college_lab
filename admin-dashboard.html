@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Admin Dashboard - Lab Management System</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Admin Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="#dashboard">Dashboard</a></li>
+                    <li><a href="#equipment">Manage Equipment</a></li>
+                    <li><a href="#reviews">View Reviews</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="dashboard" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to the Admin Dashboard</h2>
+                <p>Manage lab equipment and reviews efficiently.</p>
+            </div>
+        </section>
+
+        <section id="equipment" class="features">
+            <h2>Manage Equipment</h2>
+            <div class="container">
+                <form id="addEquipmentForm">
+                    <input type="text" id="equipmentName" placeholder="Equipment Name" required>
+                    <input type="text" id="equipmentDescription" placeholder="Equipment Description" required>
+                    <button type="submit" class="btn">Add Equipment</button>
+                </form>
+                <div class="equipment-list" id="equipmentList"></div>
+            </div>
+        </section>
+
+        <section id="reviews" class="features">
+            <h2>View Reviews</h2>
+            <div class="container">
+                <div class="reviews-list" id="reviewsList"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lab Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* Login Container Styles */
+.login-container {
+    max-width: 400px; /* Set a max width for the login form */
+    margin: 50px auto; /* Center the form */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s; /* Fade-in animation */
+}
+
+.login-container h2 {
+    text-align: center;
+    color: purple; /* Set heading color to purple */
+}
+
+.ele {
+    width: 90%; /* Set width to 90% to make it shorter */
+    max-width: 300px; /* Set a maximum width for the input fields */
+    padding: 12px; /* Increase padding for better touch targets */
+    margin: 10px auto; /* Center the input fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for border color and box-shadow */
+    display: block; /* Ensure the input fields are block elements */
+}
+
+.ele:focus {
+    border-color: #007BFF; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+
+.clkbtn {
+    width: 90%; /* Set width to 90% for the button */
+    max-width: 300px; /* Set a maximum width for the button */
+    padding: 12px; /* Increase padding for better touch targets */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for background color and box-shadow */
+    display: block; /* Ensure the button is a block element */
+    margin: 10px auto; /* Center the button */
+}
+
+.clkbtn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Glow effect on hover */
+}
+
+.error-message {
+    color: red; /* Error message color */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.redirect {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redirect a {
+    color: purple; /* Set link color to purple */
+    text-decoration: none;
+}
+
+.redirect a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

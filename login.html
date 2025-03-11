@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Main CSS file -->
+    <link rel="stylesheet" href="login.css"> <!-- New CSS file for login page -->
+    <title>Login - Lab Management System</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lab Management System</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container login-container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" id="username" class="ele" placeholder="Username" required>
+                <input type="password" id="password" class="ele" placeholder="Password" required>
+                <button type="submit" class="clkbtn">Login</button>
+            </form>
+            <div id="message" class="error-message"></div>
+            <p class="redirect">Don't have an account? <a href="register.html" style="color: purple;">Register here</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lab Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

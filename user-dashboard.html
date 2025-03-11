@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the main CSS file -->
+    <title>User Dashboard - Lab Management System</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>User Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="logout.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="equipment-section">
+                <h2>Available Lab Equipment</h2>
+                <div id="equipmentList" class="equipment-list">
+                    <!-- Equipment items will be dynamically populated here -->
+                </div>
+            </section>
+
+            <section class="review-section">
+                <h2>Submit a Review</h2>
+                <form id="reviewForm" class="form">
+                    <div class="form-group">
+                        <input type="text" id="reviewerName" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="reviewText" placeholder="Write your review here..." required></textarea>
+                    </div>
+                    <button type="submit" class="clkbtn">Submit Review</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lab Management System</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
